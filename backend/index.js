@@ -22,7 +22,6 @@ app.use(cors({
 
 dotenv.config();
 
-
 //MiddleWares
 app.use(cookieParser ());
 // app.use(cookieSession({keys: ["QeM7ZfPbEqipEwQl"]}));

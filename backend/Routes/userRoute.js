@@ -11,12 +11,7 @@ userRouter.post("/register", RegisterUser);
 userRouter.post("/login", LoginUser);
 userRouter.get("/get", authUser, getProfile);
 userRouter.post("/update-profile", upload.single('image'),authUser, updateProfile);
-// router.post("/login", LoginUser);
-// router.get("/logout", LogoutUser);
-// router.get("/getuser", Protect, GetUserData);
-// router.get("/loginstatus", LoginStatus);
-// router.patch("/updateuser", Protect, UpdateUser);
-// router.patch("/updatephoto", Protect, UpdatePhoto);
+
 
 
 
